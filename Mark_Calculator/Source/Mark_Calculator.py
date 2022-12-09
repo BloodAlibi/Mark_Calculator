@@ -21,7 +21,7 @@ while True:
     markbaseone = round(float(markbaseone),1)
     markbasetwo = round(float(markbasetwo),1)
   except ValueError:
-    print("Error converting your inputs into numbers. Please enter vali numbers (Examples : 19.3 / 344 / 63).")
+    print("Error converting your inputs into numbers. Please enter valid numbers (Examples : 19.3 / 344 / 63).")
   marktwo = round(CalculateNewMark(markone, markbaseone, markbasetwo),1)
 
   if markone.is_integer() == True:
